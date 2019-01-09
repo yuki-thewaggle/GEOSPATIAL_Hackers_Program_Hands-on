@@ -1,0 +1,32 @@
+# Layout
+layout : center
+
+# Look-and-Feel
+logo : assets/img/logo.png
+logo-position : top-right
+
+theme : white
+theme-override : assets/css/PITCHME.css
+highlight : ir-black
+
+# basic setting
+transition : zoom-in fade-out
+code-line-numbers : true
+
+# Behavior
+transition : none
+published : true
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full
+
+# google Analitics
+gatoken :
+
+# Twitter card
+title : "GEOSPATIAL Hackers Program Hands-on"
+description : "GEOSPATIAL Hackers Program Hands-on"
+thumbnail : assets/img/screenshot.png
+
+footnote : "GEOSPATIAL Hackers Program Hands-on" 
