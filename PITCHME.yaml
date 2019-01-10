@@ -67,3 +67,5 @@ footnote : "GEOSPATIAL Hackers Program Hands-on"
 # google Analitics
 gatoken :
 
+#codeline setting
+code-line-numbers : true
