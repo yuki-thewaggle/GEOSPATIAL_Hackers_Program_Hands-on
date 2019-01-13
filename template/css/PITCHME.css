@@ -280,3 +280,10 @@ div.docslink a:hover {
   font-size: 50% !important;
 }
 
+/** color set */
+
+/** img set */
+.reveal img.clip-img {
+  clip-path: circle(30% at 50% 50%);
+  -webkit-clip-path: circle(30% at 50% 50%);
+}
