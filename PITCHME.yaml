@@ -69,3 +69,4 @@ gatoken :
 
 #codeline setting
 code-line-numbers : true
+gist-line-numbers : true
