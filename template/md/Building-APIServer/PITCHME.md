@@ -76,7 +76,7 @@ Ctrl+C を2回打つ
 
 ---
 
-![router.ex](https://vimeo.com/311145345)
+![Video](https://player.vimeo.com/video/311145345)
 
 ---?color=#1E1F21
 @code[elixir zoom-4](template/src/elixir/router.ex)
@@ -120,7 +120,7 @@ localhost:4000で表示されていれば成功
 ### RESTClientでGet,Postの動作確認
 @snapend
 
-![RestClient](https://vimeo.com/311154615)
+![Video](https://player.vimeo.com/video/311154615)
 
 ---?color=#333333
 @snap[north-west text-06]
