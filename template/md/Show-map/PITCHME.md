@@ -84,4 +84,3 @@
 
 @img[zoom-07](template/img/Show-map/map_server.png)
 
----
