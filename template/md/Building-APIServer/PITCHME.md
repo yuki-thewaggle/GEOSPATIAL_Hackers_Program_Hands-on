@@ -1,74 +1,82 @@
-### APIServerの構築
-
-gismapというプロジェクト名でフェニックスのプロジェクトを作る
-
-```
-mix phx.new gismap
-Fetch and install dependencies? [Yn] （←y、Enterを入力）
-```
+---?color=#EFBB24
+# @css[headline](APIServerの構築)
 
 ---
+@snap[midopoint north-west text-06]
+### プロジェクトファイルの生成
+@snapend
 
-```cd gismap```
-で、プロジェクトに移動
+@snap[midpoint]
+@gist[zoom-06](Yoosuke/a3b22fb6c27ef03d978d37bc80e88618)
 
-次にDBを作ります。
-```
-mix ecto.create
-```
----
+@[1](gismapという名前でプロジェクトを作成します)
+@[3](Yを入力します)
+@[7](gismapのディレクトリに移動します)
+@[11](DBを作成します)
+@[15](サーバーを起動します)
 
-### サーバーを立ち上げる
-サーバーが起動するか確認のため下記コマンドで立ち上げる
-```
-iex -S mix phx.server
-```
-立ち上がっているか
-localhost:4000
-をブラウザで開いて確認します。
+@snapend
 
 ---
+@snap[north-west text-06]
+### WebServerの確認
+@snapend
 
-![ブラウザの様子](template/Building-APIServer/1-terminal.png)
+@snap[text-05]
+ブラウザで「`http://localhost:4000`」にアクセス。<br>
+Phoenixで作られたデフォルトのWebページが表示される事を確認しましょう。<br>
+無事に見られたら、成功です。<br>
 
-サーバーを終了するには
+@img[span-60](template/img/environment/localhost4000.png)
+
+@snapend
+
+---
+@snap[north-west text-06]
+### サーバーの終了方法
+@snapend
+
+
+@img[span-60](template/img/Building-APIServer/1-ctr-c.png)
+
+@snap[sorth text-10]
 Ctrl+C を2回打つ
+@snapend
+
 
 ---
-### 緯度と経度と名称を入れるためのJSONを作る
-下記のコマンドを入力
-```
-mix phx.gen.json Api Location locations lat:float lng:float pointname:string
-```
+@snap[north-west text-06]
+### JSONデータを作る
+@snapend
+
+@snap[text-05]
+ターミナルで以下を打つ<br>
+緯度と経度と名称を入れるためのJSONを作る<br><br>
+
+@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
+
+@gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
+
+<br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br><br>
+
+詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
+@snapend
+
 ---
-
-次に表示された通りにファイルを開きます
-
-```
-Add the resource to your :api scope in lib/gismap_web/router.ex:
-
-    resources "/locations", LocationController, except: [:new, :edit]
+@snap[north-west text-06]
+### Router.exを設定する
+@snapend
 
 
-Remember to update your repository by running migrations:
-
-    $ mix ecto.migrate
-```
+@gist[elixir midpoint zoom-07](Yoosuke/426e9d127ab84f72e0493874b7ddac77)
 
 @[3](ファイルに追加するのでコピーしておきます。)
+
+---?terminal=template/sessions/start-up-code.json&color=#7FDBFF&font=small&title=VSCODEでファイルを開く
+
 ---
-### VSCODEでファイルを開く
 
-```
-code .
-```
-コマンドを入力し、VSCODEを立ち上げ
-
-```
-lib/gismap_web/router.ex
-```
-
-のファイルを開きます
+![router.ex](https://vimeo.com/311145345)
 
 ---?color=#1E1F21
 @code[elixir zoom-4](template/src/elixir/router.ex)
@@ -76,49 +84,68 @@ lib/gismap_web/router.ex
 @[8](コメントアウトする)
 @[20](ここに先ほどコピーした内容をペーストします)
 
----
+---?color=#000000
+@snap[north-west text-06]
 ### マイグレーションする
+@snapend
 
-```
-mix ecto.migrate
-```
+@code[elixir midpoint zoom-10](template/src/elixir/migrate.ex)
 
-テーブルが作成されます
-
-```
-[info] == Running 20190110032559 Gismap.Repo.Migrations.CreateLocations.change/0 forward
-[info] create table locations
-[info] == Migrated 20190110032559 in 0.0s
-```
-
----
+---?color=#000000
+@snap[north-west text-06]
 ### サーバー立ち上げる
+@snapend
 
+@code[elixir zoom-4 midpoint](template/src/elixir/start.ex)
+
+@snap[south text-06]
 Phoenixを起動します
+@snapend
 
-```
-iex -S mix phx.server
-```
+---?terminal=template/sessions/start-server.json
 
 ---
-### FirefoxのRESTClientを使ってgetのリクエストを投げる
+@snap[north-west text-06]
+### ブラウザで確認
+@snapend
 
-REST APIクライアントを利用して、APIサーバーにデータを入れます。
-Firefoxを立ち上げ、RESTClientを起動します。
+@img[span-60](template/img/Building-APIServer/5-localhost.png)
+
+@snap[south text-06]
+localhost:4000で表示されていれば成功
+@snapend
+
+---
+@snap[north-west text-06]
+### RESTClientでGet,Postの動作確認
+@snapend
+
+![RestClient](https://vimeo.com/311154615)
 
 ---?color=#333333
+@snap[north-west text-06]
+### RESTClientの設定
+@snapend
 
-RESTClientの「Headers」メニューで、「Custom Header」を選択
+@snap[midpoint text-05]
 
-Nameに　``` Content-Type ```
+RESTClientの「Headers」メニューで、<br>
+「Custom Header」を選択<br>
 
-Attribute Valueには　``` application/json ```
+Nameに　``` Content-Type ```<br><br>
+
+Attribute Valueには　``` application/json ```<br><br>
 
 を入力します。
 
----
-### 帰ってきたデータ形式を確認
+@snapend
 
+---
+@snap[north-west text-06]
+### データの確認
+@snapend
+
+@snap[midpoint text-05]
 まだ、データは何も入っていないので、次のような状態になります。
 
 ```
@@ -126,24 +153,21 @@ Attribute Valueには　``` application/json ```
 {"data":[]}
 
 ```
-
-![画面キャプチャ]()
+@snapend
 
 ---
+@snap[north-west text-06]
 ### RESTClientを使ってデータをPOSTする
+@snapend
 
+@snap[text-05]
 Methodの所を「POST」に変更します。
+Bodyに<br>
+@color[#6F3381]({ "location": { "lat": 35.70822, "lng": 131.463398, "pointname": "test" } })<br>
+を入力してSENDします。<br>
 
+@img[span-50](template/img/Building-APIServer/2-rest-post.png)
 
-
----
-緯度と経度と名称を入れるためのJSONを作る
- マイグレーションする
- サーバー立ち上げる
-Firefoxのゲストクライアントを使ってgetのリクエストを投げる
-帰ってきたデータ形式を確認
-lestレストクライアントを使って緯度と経度と名前のデータをpostする
-local　host に対してgetリクエストする
-postしたデータがgetできるか確認
+@snapend
 
 
