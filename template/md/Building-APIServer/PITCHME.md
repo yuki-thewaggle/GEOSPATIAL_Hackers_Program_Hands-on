@@ -46,8 +46,8 @@ CUIで以下のコマンドを打ちます。
 
 @snapend
 
-@snap[midpoint text-05 text-white]
-<br><br><br>
+@snap[midpoint text-04 text-white]
+<br><br><br><br>
 @color[#FFFFFF](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 @snapend
 
