@@ -1,5 +1,5 @@
 ---?color=#EFBB24
-# @css[headline](APIServerの構築)
+# @css[headline](API Serverの構築)
 
 ---
 @snap[midopoint north-west text-06]
