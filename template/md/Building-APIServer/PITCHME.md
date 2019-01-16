@@ -78,7 +78,7 @@ CUIで以下のコマンドを打ちます。<br><br>
 ### Router.exの編集方法
 @snapend
 
-@snap[midpoint text-05]
+@snap[west text-05]
 
 1. lib > gismap_web > router.ex をクリック<br>
 2. 19行目と20行目の間に改行を入れる<br>
@@ -137,7 +137,7 @@ localhost:4000で表示されていれば成功
 ### RESTClientの設定
 @snapend
 
-@snap[midpoint text-05]
+@snap[west text-05]
 
 RESTClientの「Headers」メニューで、<br>
 「Custom Header」を選択<br>
