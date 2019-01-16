@@ -39,12 +39,15 @@ Ctrl+C を2回打ちます。
 
 @snap[north-west text-06 text-white]
 ### JSONデータの作成
-CUIで以下のコマンドを打ちます。<br>
-緯度と経度と名称を入れるためのJSONを作ります。
+緯度と経度と名称を入れるためのJSONデータを作ります。<br>
+CUIで以下のコマンドを打ちます。
+@snapend
 
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
-mix phx.gen.json  コンテキスト名  スキーマ名  スキーマ名の複数形　 データ名：データ型
 
+@snap[midpoint text-05  text-white]
+<br><br>
+mix phx.gen.json  コンテキスト名  スキーマ名  スキーマ名の複数形　 データ名：データ型
 @snapend
 
 @snap[south-west text-06 text-white]
