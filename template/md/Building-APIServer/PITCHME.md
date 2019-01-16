@@ -38,6 +38,25 @@ Ctrl+C を2回打ちます。
 ---
 
 @snap[north-west text-06]
+### JSONデータを作る
+@snapend
+
+@snap[text-05]
+ターミナルで以下を打つ<br>
+緯度と経度と名称を入れるためのJSONを作る<br><br>
+
+  @color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
+
+@gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
+
+<br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br><br>
+
+詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
+@snapend
+
+---
+
+@snap[north-west text-06]
 ### JSONデータの作成
 緯度と経度と名称を入れるためのJSONデータを作ります。<br>
 CUIで以下のコマンドを打ちます。
@@ -46,10 +65,11 @@ CUIで以下のコマンドを打ちます。
 @snap[midpoint text-08]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
-@[1](<br>mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
-@snap[south-west text-06]
-このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
+@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
+
+@snap[west text-06]
+<br><br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
 詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
 @snapend
 
