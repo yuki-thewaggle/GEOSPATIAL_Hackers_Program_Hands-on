@@ -39,13 +39,11 @@ Ctrl+C を2回打ちます。
 
 @snap[north-west text-06]
 ### JSONデータを作る
-@snapend
 
-@snap[text-05]
 ターミナルで以下を打つ<br>
 緯度と経度と名称を入れるためのJSONを作る<br><br>
 
-  @color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
+@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
 
 @gist[elixir zoom-50](Yoosuke/e18deaff49fd420a220bb338602160fc)
 
