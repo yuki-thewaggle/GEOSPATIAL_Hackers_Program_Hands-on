@@ -46,13 +46,9 @@ CUIで以下のコマンドを打ちます。
 
 @snapend
 
-@snap[midpoint text-04 text-white]
-<br><br><br><br>
+
 @color[#FFFFFF](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
-@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
-
-@snapend
 
 @snap[south-west text-06 text-white]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
