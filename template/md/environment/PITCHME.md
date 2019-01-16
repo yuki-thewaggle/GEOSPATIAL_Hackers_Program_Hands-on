@@ -116,9 +116,8 @@ Visual Studio Codeが起動すればOKです。<br>
 
 @snapend
 
----?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&color=#000000&title=GIST: CUI
-@[2]
-@[5](Visual Studio Codeを立ち上げる)
+---?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&lang=groovy&color=#000000&title=GIST: CUI
+@[2,5](Visual Studio Codeを立ち上げる)
 
 ---
 @snap[north-west text-06]
