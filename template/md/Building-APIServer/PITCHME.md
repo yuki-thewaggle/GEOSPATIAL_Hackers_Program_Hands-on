@@ -41,7 +41,11 @@ Ctrl+C を2回打ちます。
 @snap[north-west text-06 text-white]
 ### JSONデータの作成
 CUIで以下のコマンドを打ちます。<br>
-`mix phx.gen.json Api Location locations lat:float lng:float pointname:string`
+
+```
+mix phx.gen.json Api Location locations lat:float lng:float pointname:string
+```
+
 緯度と経度と名称を入れるためのJSONを作ります。
 @snapend
 
