@@ -83,45 +83,29 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 @img[span-60](template/img/environment/terminal.png)
 @snapend
 
----?color=#000000
-@snap[north-west text-06 text-white]
-### ターミナルの使い方
-@snapend
-
-
-@snap[midpoint text-06]
-
-現在のフォルダ内にある内容の確認
-
-@gist[terminal](Yoosuke/ef45e8a06367c20cff7b4a46714fbd12)
+---?gist=Yoosuke/ef45e8a06367c20cff7b4a46714fbd12&color=#000000
 @[3](現在のフォルダの中を表示する（Macの場合）) 
 @[5](現在のフォルダの中を表示する（Windowsの場合）) 
 @[8](フォルダを作成する)
 @[11](フォルダを移動する)
 
-
-@snapend
-
----?color=#000000
-
 @snap[north-west text-06 text-white]
-### CUIからエディタを起動する方法
+### ターミナルの使い方
 @snapend
 
-@snap[midpoint]
-Visual Studio Codeが起動すればOKです。<br>
-@gist[zoom-10](Yoosuke/6d2cfefcc23d71cf0911074a99787e88)
-@[2]
-@[5](Visual Studio Codeを立ち上げる)
-
+@snap[midpoint text-06]
+現在のフォルダ内にある内容の確認
 @snapend
 
----?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&lang=groovy&color=#000000&title=R Analytics DSL Engine
-
+---?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&color=#000000
 @[2,5](Visual Studio Codeを立ち上げる)
 
 @snap[north-west text-06 text-white]
 ### CUIからエディタを起動する方法
+@snapend
+
+@snap[midpoint text-06]
+Visual Studio Codeが起動すればOKです。
 @snapend
 
 ---
@@ -152,19 +136,18 @@ Macの場合は [homebrew](https://brew.sh/index_ja) を使用すると便利で
 
 @snapend
 
----?color=#000000
+---?gist=Yoosuke/0abcd22f59dc8cc7c0db4509aa358253&color=#000000
+@[1](HomebrewをUpdateする)
+@[2](Elixirをインストールする)
+
 @snap[north-west text-06]
 ### Elixirのインストール for Mac
 @snapend
 
 @snap[midpoint]
 homebrew からElixirをインストールします。<br>
-
-@gist[elixir zoom-10](Yoosuke/0abcd22f59dc8cc7c0db4509aa358253)
-@[1](HomebrewをUpdateする)
-@[2](Elixirをインストールする)
-
 @snapend
+
 ---
 @snap[north-west text-06]
 ### Elixirのインストール for Windows
@@ -177,6 +160,7 @@ homebrew からElixirをインストールします。<br>
 @img[span-90](template/img/environment/elixir-install-win.png)<br>
 
 @snapend
+
 ---
 @snap[north-west text-06]
 ### node.jsのインストール
@@ -201,6 +185,7 @@ homebrew からElixirをインストールします。<br>
 
 @img[span-60](template/img/environment/postgresql.png)
 @snapend
+
 ---
 @snap[north-west text-06]
 ### Phoenixframeworkのインストール①
@@ -214,33 +199,32 @@ Webのフレームワークとして、[Phoenix](https://phoenixframework.org/) 
 
 @snapend
 
----?color=#000000
+---?gist=Yoosuke/02ec19b92d74e666fd6e47e7095dfd9c&color=#000000
+@[1](Phoenix v1.4をインストールする)
+
 @snap[north-west text-06 text-white]
 ### Phoenix Frameworkのインストール②Phoenix v1.4のインストール
 @snapend
 
 @snap[midpoint]
-CUIからコマンドを入力してインストールします。<br>
-@gist[elixir midpoint zoom-16](Yoosuke/02ec19b92d74e666fd6e47e7095dfd9c)
-@[1](Phoenix v1.4をインストールする)
-
+CUIからコマンドを入力してインストールします。
 @snapend
 
----?color=#000000
-@snap[north-west text-06 text-white]
-### Phoenix Frameworkのインストール③Phoenix プロジェクトの作成
-@snapend
-
-@snap[midpoint]
-
-@gist[zoom-06](Yoosuke/a3b22fb6c27ef03d978d37bc80e88618)
+---?gist=Yoosuke/a3b22fb6c27ef03d978d37bc80e88618&color=#000000
 @[1](gismapという名前でプロジェクトを作成する)
 @[3](Yを入力する)
 @[7](gismapのディレクトリに移動する)
 @[11](DBを作成する)
 @[15](サーバーを起動する)
 
+@snap[north-west text-06 text-white]
+### Phoenix Frameworkのインストール③Phoenix プロジェクトの作成
 @snapend
+
+@snap[midpoint]
+
+@snapend
+
 ---
 @snap[north-west text-06]
 ### Phoenix Frameworkのインストール④WebServerの確認
