@@ -66,10 +66,12 @@ CUIで以下のコマンドを打ちます。
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
 
-@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
 @snap[west text-06]
-<br><br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
+<br><br><br>
+@color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
+
+<br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
 詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
 @snapend
 
