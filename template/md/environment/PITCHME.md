@@ -179,7 +179,7 @@ homebrew からElixirをインストールします。
 
 ---
 @snap[north-west text-06]
-### Phoenixframeworkのインストール①
+### Phoenix Frameworkのインストール①
 @snapend
 
 @snap[text-05]
