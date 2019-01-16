@@ -35,7 +35,7 @@ Ctrl+C を2回打ちます。
 
 @img[span-60](template/img/Building-APIServer/1-ctr-c.png)
 
----?color=#000000
+---?color=#E6E6E6
 
 @snap[north-west text-06 text-white]
 ### JSONデータの作成
@@ -45,11 +45,8 @@ CUIで以下のコマンドを打ちます。
 
 @snap[midpoint text-05]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
-@[1](<br><br><br>mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
+@[1](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 @snapend
-
-
-
 
 @snap[south-west text-06 text-white]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
