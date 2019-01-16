@@ -60,7 +60,7 @@ Ctrl+C を2回打ちます。
 ### JSONデータの作成
 緯度と経度と名称を入れるためのJSONデータを作ります。<br>
 CUIで以下のコマンドを打ちます。<br>
-@gist[elixir north zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
+@gist[elixir](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
 
 @snap[midpoint text-08]
