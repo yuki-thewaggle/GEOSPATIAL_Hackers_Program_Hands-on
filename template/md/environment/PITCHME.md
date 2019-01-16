@@ -213,7 +213,7 @@ Phoenix プロジェクトを作成します。
 ---
 @snap[north-west text-06]
 ### Phoenix Frameworkのインストール④
-WebServerを確認します。
+Webサーバを確認します。
 @snapend
 
 @snap[text-05]
