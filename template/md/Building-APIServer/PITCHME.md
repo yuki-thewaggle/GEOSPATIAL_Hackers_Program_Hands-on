@@ -62,7 +62,7 @@ Ctrl+C を2回打ちます。
 CUIで以下のコマンドを打ちます。
 @snapend
 
-@snap[midpoint text-06]
+@snap[midpoint text-08]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
 
