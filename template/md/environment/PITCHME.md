@@ -96,8 +96,8 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 @gist[terminal](Yoosuke/ef45e8a06367c20cff7b4a46714fbd12)
 @[3](現在のフォルダの中を表示する（Macの場合）) 
 @[5](現在のフォルダの中を表示する（Windowsの場合）) 
-@[7](フォルダを作成する)
-@[9](フォルダを移動する)
+@[8](フォルダを作成する)
+@[11](フォルダを移動する)
 
 
 @snapend
@@ -111,7 +111,7 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 @snap[midpoint]
 Visual Studio Codeが起動すればOKです。<br>
 
-@gist[zoom-10](Yoosuke/6d2cfefcc23d71cf0911074a99787e88)
+@gist[zoom-10](Yoosuke/6d2cfefcc23d71cf0911074a99787e88&size=100%)
 @[2]
 @[5](Visual Studio Codeを立ち上げる)
 
