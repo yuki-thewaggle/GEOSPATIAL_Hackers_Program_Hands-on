@@ -43,16 +43,16 @@ Ctrl+C を2回打ちます。
 CUIで以下のコマンドを打ちます。
 
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
+@[1](<br><br><br>mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
 @snapend
 
 
-@color[#FFFFFF](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
 
 @snap[south-west text-06 text-white]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
-詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
+詳しくは、@color[#FFFFFF]([こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html))のライブラリに記載されています。
 @snapend
 
 ---?gist=Yoosuke/426e9d127ab84f72e0493874b7ddac77&color=#000000
