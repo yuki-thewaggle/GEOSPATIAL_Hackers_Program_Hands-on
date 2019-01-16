@@ -197,33 +197,3 @@ Webのフレームワークとして、[Phoenix](https://phoenixframework.org/) 
 ### Phoenix Frameworkのインストール②
 CUIからコマンドを入力してPhoenix v1.4をインストールします。
 @snapend
-
----?gist=Yoosuke/a3b22fb6c27ef03d978d37bc80e88618&color=#000000
-@[1](gismapという名前でプロジェクトを作成する)
-@[3](Yを入力する)
-@[7](gismapのディレクトリに移動する)
-@[11](DBを作成する)
-@[15](サーバーを起動する)
-
-@snap[north-west text-06 text-white]
-### Phoenix Frameworkのインストール③
-Phoenix プロジェクトを作成します。
-@snapend
-
----
-@snap[north-west text-06]
-### Phoenix Frameworkのインストール④
-Webサーバを確認します。
-@snapend
-
-@snap[text-05]
-ブラウザで「`http://localhost:4000`」にアクセス。<br>
-Phoenixで作られたデフォルトのWebページが表示される事を確認しましょう。<br>
-無事に見られたら、成功です。<br>
-
-@img[span-60](template/img/environment/localhost4000.png)
-
-@snapend
-
-
-
