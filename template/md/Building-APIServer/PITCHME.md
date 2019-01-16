@@ -46,7 +46,7 @@ CUIで以下のコマンドを打ちます。
 @snap[midpoint text-08]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
-@[1](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
+@[1](<br>mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
 @snap[south-west text-06]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
