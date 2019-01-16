@@ -159,7 +159,7 @@ homebrew からElixirをインストールします。
 @snapend
 
 @snap[text-05]
-[nodejs](https://nodejs.org/en/download/) をダウンロードします。<br>
+[nodejs](https://nodejs.org/en/download/) の LTS（推奨版） をダウンロードします。<br>
 
 @img[span-70](template/img/environment/nodejs.png)<br>
 
