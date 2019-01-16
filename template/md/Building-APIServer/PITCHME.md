@@ -41,13 +41,13 @@ Ctrl+C を2回打ちます。
 ### JSONデータを作る
 
 緯度と経度と名称を入れるためのJSONデータを作ります。<br>
-CUIで以下のコマンドを打ちます。<br>
+CUIで以下のコマンドを打ちます。<br><br>
 
 @color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
 
 @gist[elixir zoom-50](Yoosuke/e18deaff49fd420a220bb338602160fc)
 
-<br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br><br>
+<br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
 
 詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
 @snapend
@@ -55,9 +55,8 @@ CUIで以下のコマンドを打ちます。<br>
 ---?gist=Yoosuke/426e9d127ab84f72e0493874b7ddac77&color=#000000
 @[3](ファイルに追加するのでコピーしておく)
 
-@snap[north-west text-06　text-white]
+@snap[north-west text-06]
 ### Router.exの設定
-
 このコマンドは、CUIでは打ちません。<br>
 エディタでファイルを開いて追記します。<br>
 @snapend
@@ -81,11 +80,11 @@ CUIで以下のコマンドを打ちます。<br>
 
 @snap[midpoint text-05]
 
-1. lib > gismap_web > router.ex をクリック
-1. 19行目と20行目の間に改行を入れる
-1. `resources "/locations", LocationController, except: [:new, :edit]` と記入
-1. 8行目「plug :protect_from_forgery」の先頭に `#` を記入
-1. Control + S を打ってファイルを保存
+1. lib > gismap_web > router.ex をクリック<br>
+2. 19行目と20行目の間に改行を入れる<br>
+3. 「 `resources "/locations", LocationController, except: [:new, :edit]` 」と記入<br>
+4. 8行目「plug :protect_from_forgery」の先頭に「 `#` 」を記入<br>
+5. Control + S を打ってファイルを保存<br>
 
 @snapend
 
