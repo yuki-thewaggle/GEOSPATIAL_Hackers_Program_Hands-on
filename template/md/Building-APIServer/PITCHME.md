@@ -43,7 +43,7 @@ CUIで以下のコマンドを打ちます。<br>
 緯度と経度と名称を入れるためのJSONを作ります。
 @snapend
 
-@snap[midpoint]
+@snap[midpoint text-05]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @[1](mix phx.gen.json  コンテキスト名  スキーマ名  スキーマ名の複数形　 データ名：データ型)
 @snapend
