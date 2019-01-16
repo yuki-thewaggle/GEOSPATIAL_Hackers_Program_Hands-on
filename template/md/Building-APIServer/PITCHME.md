@@ -47,7 +47,7 @@ Ctrl+C を2回打ちます。
 
   @color[#6F3381](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)<br><br>
 
-@gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
+@gist[elixir](Yoosuke/e18deaff49fd420a220bb338602160fc)
 
 <br><br>このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br><br>
 
