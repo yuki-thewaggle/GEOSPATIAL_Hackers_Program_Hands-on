@@ -59,11 +59,11 @@ Ctrl+C を2回打ちます。
 @snap[north-west text-06]
 ### JSONデータの作成
 緯度と経度と名称を入れるためのJSONデータを作ります。<br>
-CUIで以下のコマンドを打ちます。
+CUIで以下のコマンドを打ちます。<br>
+@gist[elixir north zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
 
 @snap[midpoint text-08]
-@gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
 @snapend
 
 
