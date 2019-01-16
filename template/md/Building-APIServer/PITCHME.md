@@ -35,9 +35,9 @@ Ctrl+C を2回打ちます。
 
 @img[span-60](template/img/Building-APIServer/1-ctr-c.png)
 
----?color=#E6E6E6
+---
 
-@snap[north-west text-06 text-white]
+@snap[north-west text-06]
 ### JSONデータの作成
 緯度と経度と名称を入れるためのJSONデータを作ります。<br>
 CUIで以下のコマンドを打ちます。
@@ -45,12 +45,12 @@ CUIで以下のコマンドを打ちます。
 
 @snap[midpoint text-05]
 @gist[elixir midpoint zoom-15](Yoosuke/e18deaff49fd420a220bb338602160fc)
-@[1](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 @snapend
+@[1](mix phx.gen.json コンテキスト名 スキーマ名 スキーマ名の複数形　データ名：データ型)
 
-@snap[south-west text-06 text-white]
+@snap[south-west text-06]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
-詳しくは、@color[#FFFFFF]([こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html))のライブラリに記載されています。
+詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
 @snapend
 
 ---?gist=Yoosuke/426e9d127ab84f72e0493874b7ddac77&color=#000000
