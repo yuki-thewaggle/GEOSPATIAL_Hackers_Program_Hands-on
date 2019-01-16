@@ -111,7 +111,12 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 @snap[midpoint]
 Visual Studio Codeが起動すればOKです。<br>
 
-@gist[zoom-10](Yoosuke/6d2cfefcc23d71cf0911074a99787e88&size=100%)
+---?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&title=CUIからエディタを起動する方法
+@[2]
+@[5](Visual Studio Codeを立ち上げる)
+
+---
+@gist[zoom-10](Yoosuke/6d2cfefcc23d71cf0911074a99787e88)
 @[2]
 @[5](Visual Studio Codeを立ち上げる)
 
