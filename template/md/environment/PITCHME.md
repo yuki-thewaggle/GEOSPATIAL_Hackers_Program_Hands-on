@@ -120,6 +120,10 @@ Visual Studio Codeが起動すればOKです。<br>
 
 @[2,5](Visual Studio Codeを立ち上げる)
 
+@snap[north-west text-06 text-white]
+### CUIからエディタを起動する方法
+@snapend
+
 ---
 @snap[north-west text-06]
 ### Elixirのインストール
