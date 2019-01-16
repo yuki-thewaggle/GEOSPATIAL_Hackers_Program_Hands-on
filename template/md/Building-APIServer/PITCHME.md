@@ -30,24 +30,22 @@ Phoenixで作られたデフォルトのWebページが表示される事を確�
 ---
 @snap[north-west text-06]
 ### サーバーの終了方法
-@snapend
-
-@snap[text-10]
 Ctrl+C を2回打ちます。
 @snapend
 
 @img[span-60](template/img/Building-APIServer/1-ctr-c.png)
 
----?gist=Yoosuke/e18deaff49fd420a220bb338602160fc&color=#000000
+---?gist=Yoosuke/e18deaff49fd420a220bb338602160fc&size=100% 50%&color=#000000
 @[1](mix phx.gen.json  コンテキスト名  スキーマ名  スキーマ名の複数形　 データ名：データ型)
 
 @snap[north-west text-06 text-white]
 ### JSONデータの作成
 CUIで以下のコマンドを打ちます。<br>
+`mix phx.gen.json Api Location locations lat:float lng:float pointname:string`
 緯度と経度と名称を入れるためのJSONを作ります。
 @snapend
 
-@snap[south text-06 text-white]
+@snap[south-west text-06 text-white]
 このコマンドは、JSONリソースのcontroller, views, contextを生成します。<br>
 詳しくは、[こちら](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)のライブラリに記載されています。
 @snapend
