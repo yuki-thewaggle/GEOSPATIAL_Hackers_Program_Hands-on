@@ -116,7 +116,8 @@ Visual Studio Codeが起動すればOKです。<br>
 
 @snapend
 
----?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&lang=groovy&color=#000000&title=GIST: CUI
+---?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&lang=groovy&color=#000000&title=R Analytics DSL Engine
+
 @[2,5](Visual Studio Codeを立ち上げる)
 
 ---
