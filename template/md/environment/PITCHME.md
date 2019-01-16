@@ -15,7 +15,7 @@
 
 ---
 @snap[north-west text-06]
-### Rest APIクライアントの準備
+### Rest APIクライアント
 @snapend
 
 @snap[midopoint text-05]
@@ -26,7 +26,7 @@
 @snapend
 ---
 @snap[north-west text-06]
-### テキストエディタの準備①
+### テキストエディタ①
 @snapend
 
 @snap[midopoint text-05]
@@ -39,7 +39,7 @@
 
 ---
 @snap[north-west text-06]
-### テキストエディタの準備②アドインの追加
+### テキストエディタ②
 @snapend
 
 @snap[midopoint text-05]
@@ -50,10 +50,11 @@ Visual Studio Code に [Elixirのアドイン](https://marketplace.visualstudio.
 
 ---
 @snap[north-west text-06]
-### CUIからエディタを起動するための準備
+### テキストエディタ③
 @snapend
 
 @snap[midopoint text-05]
+CUIからエディタを起動するための設定をします。<br>
 Visual Studio Codeを開いた状態で<br>
 Command + Shift + P で検索窓を開きます。<br>
 
@@ -61,7 +62,7 @@ Command + Shift + P で検索窓を開きます。<br>
 @snapend
 ---
 @snap[north-west text-06]
-### Shell Command install
+### テキストエディタ④
 @snapend
 
 @snap[text-05]
@@ -91,10 +92,7 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 
 @snap[north-west text-06 text-white]
 ### ターミナルの使い方
-@snapend
-
-@snap[midpoint text-06]
-現在のフォルダ内にある内容の確認
+現在のフォルダ内にある内容を確認します。
 @snapend
 
 ---?gist=Yoosuke/6d2cfefcc23d71cf0911074a99787e88&color=#000000
@@ -102,9 +100,6 @@ WindowsとMacでは、利用するアプリや利用するコマンドが若干�
 
 @snap[north-west text-06 text-white]
 ### CUIからエディタを起動する方法
-@snapend
-
-@snap[midpoint text-06]
 Visual Studio Codeが起動すればOKです。
 @snapend
 
@@ -142,10 +137,7 @@ Macの場合は [homebrew](https://brew.sh/index_ja) を使用すると便利で
 
 @snap[north-west text-06]
 ### Elixirのインストール for Mac
-@snapend
-
-@snap[midpoint]
-homebrew からElixirをインストールします。<br>
+homebrew からElixirをインストールします。
 @snapend
 
 ---
@@ -170,7 +162,6 @@ homebrew からElixirをインストールします。<br>
 [nodejs](https://nodejs.org/en/download/) をダウンロードします。<br>
 
 @img[span-70](template/img/environment/nodejs.png)<br>
-
 
 @snapend
 
@@ -203,11 +194,8 @@ Webのフレームワークとして、[Phoenix](https://phoenixframework.org/) 
 @[1](Phoenix v1.4をインストールする)
 
 @snap[north-west text-06 text-white]
-### Phoenix Frameworkのインストール②Phoenix v1.4のインストール
-@snapend
-
-@snap[midpoint]
-CUIからコマンドを入力してインストールします。
+### Phoenix Frameworkのインストール②
+CUIからコマンドを入力してPhoenix v1.4をインストールします。
 @snapend
 
 ---?gist=Yoosuke/a3b22fb6c27ef03d978d37bc80e88618&color=#000000
@@ -218,16 +206,14 @@ CUIからコマンドを入力してインストールします。
 @[15](サーバーを起動する)
 
 @snap[north-west text-06 text-white]
-### Phoenix Frameworkのインストール③Phoenix プロジェクトの作成
-@snapend
-
-@snap[midpoint]
-
+### Phoenix Frameworkのインストール③
+Phoenix プロジェクトを作成します。
 @snapend
 
 ---
 @snap[north-west text-06]
-### Phoenix Frameworkのインストール④WebServerの確認
+### Phoenix Frameworkのインストール④
+WebServerを確認します。
 @snapend
 
 @snap[text-05]
