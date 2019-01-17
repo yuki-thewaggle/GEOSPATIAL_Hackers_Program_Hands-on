@@ -155,13 +155,13 @@ RESTClient の 「 **Headers** 」 メニューで、<br>
 @snapend
 
 @snap[midpoint text-05]
-- Request の Method の所を 「 **GET** 」 にします。
-- URLを 「 **http://localhost:4000/locations** 」にします。
-- 「 **SEND** 」 をクリックします
-
-- Request（リクエスト）とは：クライアントがデータの提供や処理を要求するメッセージ
-- Method GETとは：要求する機能
-- SENDとは：メッセージを送ること
+- Request の Method の所を 「 **GET** 」 にします。<br>
+- URLを 「 **http://localhost:4000/locations** 」にします。<br>
+- 「 **SEND** 」 をクリックします<br>
+<br>
+* Request（リクエスト）とは：クライアントがデータの提供や処理を要求するメッセージ<br>
+* Method GETとは：要求する機能<br>
+* SENDとは：メッセージを送ること
 @snapend
 
 ---
@@ -181,8 +181,8 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 ```
 <br>
 <br>
-- 200 OKとは：　リクエストが成功した場合に返されるレスポンスコード
-- Response（レスポンス）とは：Webサーバーがクライアントからリクエストを受け取った結果をクライアントへ送信する応答
+* 200 OKとは：　リクエストが成功した場合に返されるレスポンスコード<br>
+* Response（レスポンス）とは：Webサーバーがクライアントからリクエストを受け取った結果をクライアントへ送信する応答
 @snapend
 
 ---
@@ -218,5 +218,5 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 ```
 <br>
 <br>
-- 201 Createdとは：　リクエストが成功してリソースの作成が完了したときに返されるレスポンスコード
+* 201 Createdとは：　リクエストが成功してリソースの作成が完了したときに返されるレスポンスコード
 @snapend
