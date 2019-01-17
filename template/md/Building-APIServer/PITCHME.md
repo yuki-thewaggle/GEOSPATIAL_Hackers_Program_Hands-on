@@ -127,7 +127,7 @@ localhost:4000で表示されていれば成功
 
 ---
 @snap[north-west text-06]
-### RESTClientでGET、POSTの動作確認
+### RESTClientで GET、POST の動作確認
 @snapend
 
 ![Video](https://player.vimeo.com/video/311154615)
@@ -139,13 +139,12 @@ localhost:4000で表示されていれば成功
 
 @snap[west text-05]
 
-RESTClientの「Headers」メニューで、<br>
-「Custom Header」を選択<br>
-
-Nameに　``` Content-Type ```<br><br>
-
-Attribute Valueには　``` application/json ```<br><br>
-
+RESTClient の 「 **Headers** 」 メニューで、<br>
+> 「 **Custom Header** 」を選択<br>
+<br>
+- Nameに **Content-Type** <br>
+- Attribute Valueに **application/json** <br>
+<br>
 を入力します。
 
 @snapend
@@ -156,25 +155,30 @@ Attribute Valueには　``` application/json ```<br><br>
 @snapend
 
 @snap[midpoint text-05]
-まだ、データは何も入っていないので、次のような状態になります。
-
+まだデータは何も入っていないので、<br>
+Response メニューの 「 **Response** 」 タブの内容は<br>
+次のような状態になります。<br>
+<br>
 ```
 
 {"data":[]}
 
 ```
+<br>
 @snapend
 
 ---
 @snap[north-west text-06]
-### RESTClientを使ってデータをPOSTする
+### RESTClientを使ってデータを POST する
 @snapend
 
 @snap[text-05]
-Methodの所を「POST」に変更します。
-Bodyに<br>
+Request メニューの Method を「 **POST** 」に変更します。
+Body メニューの枠内に<br>
+<br>
 @color[#6F3381]({ "location": { "lat": 35.70822, "lng": 131.463398, "pointname": "test" } })<br>
-を入力してSENDします。<br>
+<br>
+を入力して 「 **SEND** 」をクリックします。<br>
 
 @img[span-50](template/img/Building-APIServer/2-rest-post.png)
 
