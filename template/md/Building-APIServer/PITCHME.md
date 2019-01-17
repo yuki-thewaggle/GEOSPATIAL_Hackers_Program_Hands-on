@@ -149,12 +149,12 @@ RESTClient の「 **Headers** 」メニューで、<br>
 
 @snapend
 
----
+---?color=#333333
 @snap[north-west text-06]
-### RESTClient を使ってデータを GET する①
+### RESTClient を使ってデータを GET する
 @snapend
 
-@snap[midpoint text-05]
+@snap[west text-05]
 - Request の Method の所を「 **GET** 」にします。<br>
 - URLに<br>
   「 **http://localhost:4000/locations** 」を入力します。<br>
@@ -167,7 +167,7 @@ RESTClient の「 **Headers** 」メニューで、<br>
 
 ---
 @snap[north-west text-06]
-### RESTClient を使ってデータを GET する②
+### GET した結果を確認する
 @snapend
 
 @snap[midpoint text-05]
@@ -182,16 +182,16 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 ```
 <br>
 <br>
-* 200 OKとは：　リクエストが成功した場合に返されるレスポンスコード<br>
-* Response（レスポンス）とは：Webサーバーがクライアントからリクエストを受け取った結果をクライアントへ送信する応答
+*200 OKとは：　リクエストが成功した場合に返されるレスポンスコード<br>
+ Response（レスポンス）とは：　Webサーバーがクライアントからリクエストを受け取った結果をクライアントへ送信する応答*
 @snapend
 
----
+---?color=#333333
 @snap[north-west text-06]
-### RESTClientを使ってデータを POST する①
+### RESTClientを使ってデータを POST する
 @snapend
 
-@snap[text-05]
+@snap[west text-05]
 Request メニューの Method を「 **POST** 」に変更します。<br>
 次に、**Body** に<br>
 <br>
@@ -205,7 +205,7 @@ Request メニューの Method を「 **POST** 」に変更します。<br>
 
 ---
 @snap[north-west text-06]
-### RESTClientを使ってデータを POST する②
+### POST した結果を確認する
 @snapend
 
 @snap[text-05]
@@ -219,5 +219,5 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 ```
 <br>
 <br>
-* 201 Createdとは：　リクエストが成功してリソースの作成が完了したときに返されるレスポンスコード
+*201 Createdとは：　リクエストが成功してリソースの作成が完了したときに返されるレスポンスコード*
 @snapend
