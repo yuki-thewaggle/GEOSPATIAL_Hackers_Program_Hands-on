@@ -140,7 +140,7 @@ localhost:4000で表示されていれば成功
 @snap[west text-05]
 
 RESTClient の 「 **Headers** 」 メニューで、<br>
-> 「 **Custom Header** 」を選択<br>
+> 「 **Custom Header** 」を選択します。<br>
 <br>
 - Nameに **Content-Type** <br>
 - Attribute Valueに **application/json** <br>
@@ -173,8 +173,8 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 @snapend
 
 @snap[text-05]
-Request メニューの Method を「 **POST** 」に変更します。
-Body メニューの枠内に<br>
+Request メニューの Method を「 **POST** 」に変更します。<br>
+次に、Body メニューの枠内に<br>
 <br>
 @color[#6F3381]({ "location": { "lat": 35.70822, "lng": 131.463398, "pointname": "test" } })<br>
 <br>
