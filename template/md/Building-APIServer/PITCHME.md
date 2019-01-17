@@ -139,8 +139,8 @@ localhost:4000で表示されていれば成功
 
 @snap[west text-05]
 
-RESTClient の 「 **Headers** 」 メニューで、<br>
-> 「 **Custom Header** 」 を選択します。<br>
+RESTClient の「 **Headers** 」メニューで、<br>
+「 **Custom Header** 」を選択します。<br>
 <br>
 - Nameに **Content-Type** <br>
 - Attribute Valueに **application/json** <br>
@@ -155,8 +155,9 @@ RESTClient の 「 **Headers** 」 メニューで、<br>
 @snapend
 
 @snap[midpoint text-05]
-- Request の Method の所を 「 **GET** 」 にします。<br>
-- URLを 「 **http://localhost:4000/locations** 」にします。<br>
+- Request の Method の所を「 **GET** 」にします。<br>
+- URLに<br>
+  「 **http://localhost:4000/locations** 」を入力します。<br>
 - 「 **SEND** 」 をクリックします<br>
 <br>
 * Request（リクエスト）とは：クライアントがデータの提供や処理を要求するメッセージ<br>
