@@ -174,7 +174,7 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 
 @snap[text-05]
 Request メニューの Method を「 **POST** 」に変更します。<br>
-次に、Body メニューの枠内に<br>
+次に、**Body** に<br>
 <br>
 @color[#6F3381]({ "location": { "lat": 35.70822, "lng": 131.463398, "pointname": "test" } })<br>
 <br>
