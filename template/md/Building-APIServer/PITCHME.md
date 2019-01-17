@@ -187,7 +187,7 @@ Response メニューの 「 **Response** 」 タブの内容は<br>
 
 ---
 @snap[north-west text-06]
-### RESTClientを使ってデータを POST する
+### RESTClientを使ってデータを POST する①
 @snapend
 
 @snap[text-05]
@@ -202,4 +202,21 @@ Request メニューの Method を「 **POST** 」に変更します。<br>
 
 @snapend
 
+---
+@snap[north-west text-06]
+### RESTClientを使ってデータを POST する②
+@snapend
 
+@snap[text-05]
+Response メニューの 「 **Response** 」 タブの内容は<br>
+次のような状態になります。<br>
+<br>
+```
+
+{"data":{"id":3, "lat":35.70822, "lng:"131.463398, "pointname:"test"}}
+
+```
+<br>
+<br>
+- 201 Createdとは：　リクエストが成功してリソースの作成が完了したときに返されるレスポンスコード
+@snapend
