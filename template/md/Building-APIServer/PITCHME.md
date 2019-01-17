@@ -134,7 +134,7 @@ localhost:4000で表示されていれば成功
 
 ---?color=#333333
 @snap[north-west text-06]
-### RESTClientの設定
+### RESTClient を使ってデータを GET する①
 @snapend
 
 @snap[west text-05]
@@ -151,7 +151,7 @@ RESTClient の「 **Headers** 」メニューで、<br>
 
 ---?color=#333333
 @snap[north-west text-06]
-### RESTClient を使ってデータを GET する
+### RESTClient を使ってデータを GET する②
 @snapend
 
 @snap[west text-05]
