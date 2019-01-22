@@ -12,9 +12,9 @@
 @snapend
 
 @snap[south-west list-content-concise span-80]
-@ol[list-bullets-black](true)
-- WebGIS等 基礎知識
-- 環境構築
+@ol[list-bullets-black](false)
+* WebGIS等 基礎知識
+* 環境構築
 - APIServerの構築
 - 地図の表示
 - 外部API呼び出し
