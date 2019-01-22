@@ -4,7 +4,8 @@
 # Windowsメモ
 
 ### Phoenix v1.4のインストール
-
+- 管理者権限でコマンドプロンプトを起動する
+- 入力するコマンドは同じ `mix archive.install hex phx_new 1.4.0`
 ```
 C:\WINDOWS\system32>mix archive.install hex phx_new 1.4.0
 Could not find Hex, which is needed to build dependency :phx_new
