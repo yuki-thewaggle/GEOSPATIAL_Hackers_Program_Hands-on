@@ -1,1 +1,22 @@
 # 構成
+
+
+# Windowsメモ
+
+### Phoenix v1.4のインストール
+
+C:\WINDOWS\system32>mix archive.install hex phx_new 1.4.0
+Could not find Hex, which is needed to build dependency :phx_new
+Shall I install Hex? (if running non-interactively, use "mix local.hex --force") [Yn] Y
+* creating c:/Users/yukim/.mix/archives/hex-0.19.0
+Resolving Hex dependencies...
+Dependency resolution completed:
+New:
+[32m  phx_new 1.4.0[0m
+* Getting phx_new (Hex package)
+All dependencies are up to date
+Compiling 10 files (.ex)
+Generated phx_new app
+Generated archive "phx_new-1.4.0.ez" with MIX_ENV=prod
+Are you sure you want to install "phx_new-1.4.0.ez"? [Yn] Y
+* creating c:/Users/yukim/.mix/archives/phx_new-1.4.0
